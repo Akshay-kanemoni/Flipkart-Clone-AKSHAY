@@ -1,0 +1,128 @@
+.prd{
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    height: 450px;
+    /* display: flex; */
+    display: table-column;
+
+
+
+}
+.stdiv{
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+
+
+}
+.img1{
+    height: 100px;
+    width: 100px;
+}
+.prd__img img{
+width: 250px;
+height: 290px;
+
+}
+.prd__img{
+    text-align: center;
+}
+.prd__review{
+    margin-left: 10px;
+    background-color: #388e3c;
+    color: white;
+    
+   
+}
+.prd__oldprice{
+    margin-left: 8px;
+    text-decoration: line-through;
+}
+.fassured img{
+    width: 70px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+
+.star{
+    color: white;
+
+}
+.prd__cart button{
+ border: none;
+background-color: #2874f0;
+ padding: 10px;
+ color: white;
+ border-radius: 5px 5px 5px 5px;
+ margin-top: 5px;
+ width: 300px;
+}
+
+.HeartIcon_1_on{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ff4343;
+    z-index: 1;
+
+}
+.HeartIcon_2_on{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #c2c2c2;
+    z-index: -1;
+
+}
+.HeartIcon_1_off{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ff4343;
+    z-index: 1;
+}
+.HeartIcon_2_off{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #c2c2c2;
+    z-index: 2;
+
+}
+
+
+@media(max-width:768px){
+    .prd{
+        display: table-column;
+        max-width: 300px;
+        width: 100%;
+       
+    }
+    
+        .stdiv{
+            margin-left: 15px;
+            display: flex;
+            
+        
+        
+        }
+        .star{
+        
+            font-size:  16px !important ;
+        }
+        .prd__star{
+            width: 130px;
+        }
+        .img1{
+            
+            width: 300px;
+        }
+        
+   
+
+        
+}

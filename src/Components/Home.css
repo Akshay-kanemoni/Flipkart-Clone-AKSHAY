@@ -1,0 +1,194 @@
+.header{
+    max-width:1345px;
+    width:100%;   
+    margin-top: 20px;
+}
+.header_main{
+    display: flex;
+}
+.prdss img{
+    width:60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding:2px;
+}
+.prdss{
+    margin-left: 80px;
+    font-size: 16px;
+}
+.prdss p{
+    margin-top: -10px;
+    
+}
+.offer_products{
+    max-width:1455px;
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 70px;
+}
+.offer_products1{
+    max-width:1000px;
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 1px solid gainsboro;
+}
+.prd_offer img{
+width:270px;
+height: 250px;
+margin-left: 45px;
+
+}
+.prd_offer{
+    text-align: center;
+}
+.Add img{
+    max-width: 1340px;
+    width: 100%;
+}
+.button{
+    background-color: #2874f0;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15%;
+    width: 80px;
+    height: 35px;
+}
+.Prd_Det p{
+    text-align: center;
+    color: rgb(63, 55, 55);
+}
+.home_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 50px;
+}
+.decor1{
+    display: none;
+}
+.Add1 img{
+    max-width: 1340px;
+    width: 100%;
+}
+
+
+@media (max-width:768px){
+    .heading{
+        display: none;
+    }
+    .header{
+    max-width: 400px;
+    width: 100%;
+    }
+    .prdss img{
+    width: 30px;
+    margin-left: 1px;
+    }
+    .prdss{
+        margin-left: 15px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .home_title{
+        justify-content: start;
+        margin-left: 10px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .button{
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: 180px;
+    }
+    .prd_offer img{
+        width:150px;
+        height: 140px;
+        margin-left: 15px;
+        
+        }
+        .Prd_Det{
+            font-size: 13px;
+        }
+        .offer_products{
+            max-width: 400px;
+            width: 100%;
+            margin-left: 0px;
+        }
+        .decor{
+            margin-left: 10px;
+            width: 160px;
+            height: 140px;
+            display: table-column;
+        }
+        .decor1{
+            
+            display: flex;
+            max-width: 350px;
+            width: 100%;
+            margin-left: 0px;
+           
+        }
+        .decorflex{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+        .decorlayout{
+            font-size: 20px;
+            margin-left: 0px;
+            /* background: linear-gradient(90deg,#e79595 ,#e2b79c); */
+            width:450px;
+            height: 430px;
+            
+            
+           
+        }
+        .coures{
+            margin-top: 10px;
+           margin-bottom: -20%;
+        }
+        .decorlayout1{
+            font-size: 20px;
+            margin-left: 40px;
+            background-color: rgb(240, 224, 224);
+            width:200px;
+            height: 200px;
+            margin-top: 10PX;
+            
+           
+        }
+        .decor3 img{
+            width: 200px;
+            height: 200px;
+            margin-left: 30px;
+        }
+        .displaynone{
+            display: none;
+        }
+        .Add1 img{
+            width: 400px;
+         
+            display: none;
+        }
+        .Add img{
+            width: 400px;
+            
+        }
+        .Add img{
+            width: 400px;
+           
+        }
+        
+}
+    
